@@ -114,12 +114,12 @@ p {
     text-align: center;
     background-color: #ff4c68;
     color:#fff;
-    padding-top: 12%;   
+    padding: 7% 15%;
 }
 
 .cta-message {
     font-size: 3.5rem;
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -128,17 +128,13 @@ p {
 #footer {
     text-align: center;
     font-weight: bold; 
-    margin-bottom: 50px;
-   
+    padding: 7% 15%;
 }
 
 .footer-icon {
-    padding: 8% 15px 30px;
+    margin: 20px 10px;
 }
 
-.footer-button {
-    margin: 80px 20px 100px;
-}
 
 /* Images */
 
