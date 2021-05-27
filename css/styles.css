@@ -3,15 +3,15 @@ body {
 }
 
 #title {
-    background-color: #ff4c68; 
+    background-color: #ff4c68;
     color: #fff;
- }
+}
 
 h1 {
     font-size: 3.5rem;
     line-height: 1.5;
     font-weight: 900;
-} 
+}
 
 h2 {
     font-family: "Montserrat";
@@ -30,7 +30,7 @@ p {
     color: #8f8f8f;
 }
 
- 
+
 .container-fluid {
     padding: 3% 15% 7%;
 }
@@ -110,9 +110,39 @@ p {
 
 /* CTA */
 
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    color:#fff;
+    padding-top: 12%;   
+}
+
+.cta-message {
+    font-size: 3.5rem;
+    width: 70%;
+    margin: 0 auto;
+}
+
 /* Footer */
 
+#footer {
+    text-align: center;
+    font-weight: bold; 
+    margin-bottom: 50px;
+   
+}
+
+.footer-icon {
+    padding: 8% 15px 30px;
+}
+
+.footer-button {
+    margin: 80px 20px 100px;
+}
+
 /* Images */
+
+
 
 .iphone-mockup {
     width: 60%;
@@ -141,4 +171,17 @@ p {
     margin: 20px 20px 50px;
 }
 
- 
+/* Media Queries */
+
+@media (max-width: 1028px) {
+
+    .iphone-mockup {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
+
+}
