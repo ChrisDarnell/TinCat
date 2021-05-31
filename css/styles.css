@@ -4,8 +4,12 @@ body {
 }
 
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Montserrat";
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: bold;
 }
 
@@ -13,8 +17,21 @@ p {
     color: #8f8f8f;
 }
 
+/* Containers */
+
 .container-fluid {
-    padding: 3% 15% 7%;
+    padding: 7% 15%;
+}
+
+/* Sections */
+
+.color-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
 }
 
 /* Headings */
@@ -29,13 +46,6 @@ p {
 .section-heading {
     font-size: 3rem;
     line-height: 1.5;
-}
-
-/* Title */
-
-#title {
-    background-color: #ff4c68;
-    color: #fff;
 }
 
 /* Navigation Bar */
@@ -60,9 +70,15 @@ p {
     font-family: "Montserrat";
 }
 
-.navbar-paw {
+.navbar-cat {
     color: #000;
     margin-right: 25px;
+}
+
+/* Title */
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
 }
 
 /* Download Buttons */
@@ -75,8 +91,6 @@ p {
 
 #features {
     margin: -13% 0 0;
-    padding: 7% 15%;
-    background-color: #fff;
     z-index: 1;
     position: relative;
 }
@@ -93,11 +107,6 @@ p {
 
 #testimonials {
     background-color: #ef8172;
-    color: #fff;
-}
-
-.carousel-item {
-    padding: 7% 15%;
 }
 
 .testimonial-text {
@@ -109,14 +118,9 @@ p {
 
 #press {
     background-color: #ef8172;
-    padding-bottom: 3%;
 }
 
 /* Pricing  */
-
-#pricing {
-    padding: 7%;
-}
 
 .pricing-column {
     padding: 3% 2%;
@@ -129,17 +133,15 @@ p {
 
 /* CTA */
 
-#cta {
-    background-color: #ff4c68;
-    color: #fff;
+#cta .big-heading {
     padding: 7% 15%;
+    text-align: center;
 }
 
 /* Footer */
 
 #footer {
     font-weight: bold;
-    padding: 7% 15%;
 }
 
 .footer-icon {
